@@ -31,7 +31,7 @@ export default function Home() {
         <div className="py-20 mx-auto text-center flex flex-col max-w-3xl items-center">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
             Your marketplace for high-quality{" "}
-            <span className="text-blue-600">digital assets</span>
+            <span className="text-orange-500">digital assets</span>
           </h1>
           <p className="mt-6 text-lg max-w-prose text-muted-foreground">
             Welcome to OrcaDigital.Every asset on our platform is vertified by
@@ -56,7 +56,7 @@ export default function Home() {
                 className="text-center md:flex md:items-start md:text-left lg:block lg:text-center"
               >
                 <div className="md:flex-shrink-0 flex justify-center">
-                  <div className="h-16 w-16 flex items-center justify-center rounded-full bg-blue-400">
+                  <div className="h-16 w-16 flex items-center justify-center rounded-full bg-orange-400">
                     {<perk.icons className="w-1/3 h-1/3" />}
                   </div>
                 </div>

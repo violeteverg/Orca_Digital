@@ -3,7 +3,7 @@ import NavItems from "./NavItems";
 import WidthWrapper from "./WidthWrapper";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
-import { Span } from "next/dist/trace";
+import Cart from "./Cart";
 
 export default function Navbar() {
   const user = null;
@@ -65,6 +65,10 @@ export default function Navbar() {
                       />
                     </div>
                   )}
+
+                  <div className="ml-4 flow-root lg:ml-6">
+                    <Cart />
+                  </div>
                 </div>
               </div>
             </div>
