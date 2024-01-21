@@ -8,6 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 type Category = (typeof PRODUCT_CATEGORIES)[number];
+
 interface NavItemProps {
   category: Category;
   openhandler: () => void;
